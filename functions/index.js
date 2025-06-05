@@ -11,7 +11,7 @@ const jsonDiff = require("json-diff");
 const {getRemoteConfig} = require("firebase-admin/remote-config");
 // Slack webhook
 const {IncomingWebhook} = require("@slack/webhook");
-const SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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";
+const SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/your/service/url";
 const webhook = new IncomingWebhook(SLACK_WEBHOOK_URL);
 // [END import]
 
