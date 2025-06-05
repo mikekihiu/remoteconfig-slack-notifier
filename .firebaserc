@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "ikhokha-android",
+    "prod": "ikhokha-android"
+  },
+  "targets": {},
+  "etags": {}
+}
