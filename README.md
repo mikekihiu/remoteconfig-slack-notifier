@@ -9,3 +9,15 @@ Replace `your/service/url` at `functions/index.js` with an actual webhook. TODO:
 cd functions
 firebase use --add
 firebase deploy --only functions:remoteConfigUpdate
+```
+
+### Redeployment
+When changes are made to the source, the function needs to be deleted and redeployed
+```
+firebase functions:delete remoteConfigUpdate
+firebase deploy --only functions:remoteConfigUpdate
+```
+### To view function logs
+```
+firebase functions:log
+```
